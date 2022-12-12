@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Reggae+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Poppins:ital,wght@0,400;0,500;0,600;1,600&family=Reggae+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(img/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: "Montserrat", sans-serif;
+  }
+
+
+.navMenu {
+    position: absolute;
+    top: 10%;
+    left: 43% 
+  }
+
+  .navMenu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    display: inline-block;
+    width: 80px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+  } 
+
+  .navMenu a:hover {
+    color: #FFD700;
+}
+  .navMenu a:active {
+    background-color: #005824;
+}
+
+/*home*/
+
+.title {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Reggae One', cursive;
+}
+
+.green {
+    color: #005824;
+}
+
+.yellow {
+    color: #ffbb02;
+}
+
+.red {
+    color: #9f0612;
+}
+
+  .home-container {
+    box-sizing: border-box;
+    margin-top: 10%;
+    margin-left: 40%;
+  }
+  
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .home-column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .home-card {
+    margin-top: 17rem;
+    margin-left: 2rem;
+  }
+
+  .home-card img {
+    border-radius: 49rem;
+    width: auto;
+    height: 20rem;
+    border: 5px solid red;
+  }
+  
+
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+/*about*/
+.my_name {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Reggae One', cursive;
+
+}
+
+.my_name h3{
+    font-size: 2rem;
+    font-style: italic;
+    opacity: 89%;
+}
+
+.fa_gen {
+    font-weight: 100;
+    opacity: 80%;
+}
+.about__container {
+    margin-top: 0;
+    padding: 0;
+}
+
+.about_heading{
+    text-align: center;
+    margin-top: 5rem
+}
+.my_about {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.my_about_row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30rem;
+}
+.my_about_rows {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.about_col {
+    flex-basis: 31%;
+    background: #ffba01;
+    border-radius: 10px;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    align-items: center;
+    text-align: center;
+}
+
+.about_col h3{
+    margin: 10px 0;
+    font-weight: 600;
+    text-align: center;
+}
+
+.about_col p{
+    color: #000;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.about_col:hover {
+    box-shadow: 0 0 5em 0px #005824;
+}
+
+.about_col span {
+    font-weight: bold;
+}
+
+.my_btn {
+    border-style: none;
+    background-color: none;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.my_social_media {
+    text-decoration: none;
+    color: none;
+}
